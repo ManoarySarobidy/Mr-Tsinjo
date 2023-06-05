@@ -1,0 +1,25 @@
+Quoi :
+	Minimum de rendu de piece
+	Entrées : - rendu attendu
+				- Système En main
+
+Comment :
+	En effectuant la division du tableaux en plusieur
+
+Exemple de l'algorithme
+	Attendu = 7
+	Système s = 1 , 3 , 6
+
+	1 ère étape :
+		Division du système en 1 :
+			s ====> [0] = { 1 , 3 , 6 }
+			======> Si une solution :
+				return solution
+			======> Sinon Division en Deux :
+				====> Comme au premier étapes
+
+		Division du système en deux :
+			s ====> [0] = { 1 }
+			s ====> [1] = { 3 , 6 }
+			
+			
